@@ -288,3 +288,5 @@ lazy val docs = project
       )
     }
   )
+
+ThisBuild / sbtPluginPublishLegacyMavenStyle := false
