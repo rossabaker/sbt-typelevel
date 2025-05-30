@@ -2,6 +2,8 @@ name := "sbt-typelevel"
 
 import org.typelevel.sbt.gha.{PermissionScope, PermissionValue, Permissions}
 
+ThisBuild / organization := "com.rossabaker"
+
 ThisBuild / tlBaseVersion := "0.8"
 ThisBuild / crossScalaVersions := Seq("2.12.20")
 ThisBuild / developers ++= List(
